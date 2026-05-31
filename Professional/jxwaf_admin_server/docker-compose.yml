@@ -36,7 +36,7 @@ services:
       #HTTPS_PORT: 443
       JXWAF_MODEL_SERVER_HOST: model.jxwaf.com      # AI 模型服务器地址
       JXWAF_MODEL_SERVER_PORT: 39977
-      JXWAF_MODEL_SERVER_SSL: false
+      JXWAF_MODEL_SERVER_SSL: true
       WAF_UPDATE_CONF_DATA_SIZE: "100m"
       CONF_DATA_SIZE: "100m"
       MODEL_DATA_SIZE: "100m"
