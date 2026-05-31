@@ -19,7 +19,9 @@ services:
       SSL_ATTACK_STAT_TIME: 60
       SSL_ATTACK_STAT_COUNT: 10000
       SSL_ATTACK_BLOCK_TIME: 600
+      # 例如  http://dev.jxwaf.com
       JXWAF_SERVER: you_jxwaf_server_url
+      # 例如 2e69b351-8ca2-4861-9c4c-d46035b582cc
       WAF_AUTH: you_auth_key
       TZ: Asia/Shanghai
     restart: unless-stopped
@@ -35,7 +37,9 @@ services:
     network_mode: host
     privileged: true
     environment:
+      # 例如  http://dev.jxwaf.com
       WAF_SERVER_URL: you_jxwaf_server_url
+      # 例如 2e69b351-8ca2-4861-9c4c-d46035b582cc
       WAF_AUTH: you_auth_key
       SYNC_INTERVAL: 3
       TZ: Asia/Shanghai
