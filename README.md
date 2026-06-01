@@ -10,6 +10,32 @@
 
 > 🔗 **在线体验**：[https://waf-demo.jxwaf.com](https://waf-demo.jxwaf.com)  
 > 账号：`demo`　密码：`123456`
+<table align="center">
+  <tr>
+    <td align="center"><b>网站防护</b></td>
+    <td align="center"><b>Web安全报表</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/console-dashboard1.png" width="380"></td>
+    <td><img src="img/console-dashboard2.png" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Web引擎配置</b></td>
+    <td align="center"><b>流量引擎配置</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/console-dashboard3.png" width="380"></td>
+    <td><img src="img/console-dashboard4.png" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>攻击事件</b></td>
+    <td align="center"><b>AI模型蒸馏记录</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/console-dashboard5.png" width="380"></td>
+    <td><img src="img/console-dashboard6.png" width="380"></td>
+  </tr>
+</table>
 
 
 ## 产品亮点

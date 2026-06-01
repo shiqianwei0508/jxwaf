@@ -8,6 +8,36 @@ An AI‑powered Web Application Firewall. It analyses web traffic in real time, 
 
 > 📖 Full documentation: [https://docs.jxwaf.com](https://docs.jxwaf.com)
 
+> 🔗 **Live Demo**: [https://waf-demo.jxwaf.com](https://waf-demo.jxwaf.com)  
+> Account: `demo`　Password: `123456`
+<table align="center">
+  <tr>
+    <td align="center"><b>Site Protection</b></td>
+    <td align="center"><b>Web Security Report</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/console-dashboard1.png" width="380"></td>
+    <td><img src="img/console-dashboard2.png" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Web Engine Config</b></td>
+    <td align="center"><b>Traffic Engine Config</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/console-dashboard3.png" width="380"></td>
+    <td><img src="img/console-dashboard4.png" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Attack Events</b></td>
+    <td align="center"><b>AI Model Distillation</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/console-dashboard5.png" width="380"></td>
+    <td><img src="img/console-dashboard6.png" width="380"></td>
+  </tr>
+</table>
+
+
 ## Product Highlights
 
 ### AI Security Model
@@ -30,20 +60,7 @@ JXWAF consists of three independently deployed subsystems:
 - **JXWAF Node (jxwaf_node)** – High‑performance traffic proxy and real‑time attack detection engine built on OpenResty. Supports clustering and elastic scaling.
 - **JXLOG Log System (jxlog)** – Lightweight Go‑based log collection, stored in ClickHouse. Supports event analysis and report statistics.
 
-```
-     Normal Users                  Attackers
-          │                           │
-          ▼                           ▼
-   ┌─────────────────────────────────────────────┐   config sync    ┌──────────────┐
-   │            JXWAF Node (Cluster)              │◄══════════════►│ JXWAF Console │
-   │      Traffic Proxy · Attack Detection · Filter│                 │              │
-   └──┬──────────┬──────────┬────────────────────┘                 └──────▲───────┘
-      │          │          │ log upload                                    │
-      ▼          ▼          ▼                                              │ log query
-   ┌──────┐  ┌──────┐  ┌──────────┐
-   │App 1 │  │App 2 │  │  JXLOG   │────────────────────────────────────────┘
-   └──────┘  └──────┘  └──────────┘
-```
+<p align="center"><img src="img/console-architecture.png" width="720"></p>
 
 ## Quick Deployment
 
