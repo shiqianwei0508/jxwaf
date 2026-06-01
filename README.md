@@ -130,7 +130,6 @@ docker compose up -d
 | 用户名 / 密码 | `jxlog` / `jxlog`（生产环境务必修改） |
 | 数据库 / 表名 | `jxwaf` / `jxlog` |
 
----
 
 ## 性能测试（单节点 4C8G）
 
@@ -150,7 +149,6 @@ docker compose up -d
 
 详细压测原始数据见 [性能测试报告](https://docs.jxwaf.com/jxwaf/Performance-Test.html)。
 
----
 
 ## 防护能力测试
 
@@ -175,7 +173,6 @@ docker compose up -d
 
 详细分类通过率及未通过样本见 [防护能力测试报告](https://docs.jxwaf.com/jxwaf/Protection-Capability-Test.html)。
 
----
 
 ## 社区支持
 
