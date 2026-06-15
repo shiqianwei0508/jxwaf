@@ -1,6 +1,6 @@
 services:
   jxwaf_model_update:
-    image: ccr.ccs.tencentyun.com/jxwaf/jxwaf_model_update:1.12
+    image: ccr.ccs.tencentyun.com/jxwaf/jxwaf_model_update:1.13
     container_name: jxwaf_model_update
     restart: unless-stopped
     depends_on:
