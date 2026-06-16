@@ -17,7 +17,7 @@ services:
       - --innodb_buffer_pool_size=256M
       - --bind-address=127.0.0.1                    # 仅本地访问，不暴露外网
     volumes:
-      - /opt/jxwaf_data/mysql:/var/lib/mysql
+      - /opt/jxwaf_data/professional_mysql:/var/lib/mysql
 
   # JXWAF 控制台
   jxwaf_admin_server:
