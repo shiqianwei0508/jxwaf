@@ -38,7 +38,7 @@ services:
                 "temperature": 0.2,
                 "timeout": 300,
                 "max_retries": 2,
-                "thinking_type": "disabled",
+                "thinking_type": "enabled",
                 "stream": false
             }
         }
